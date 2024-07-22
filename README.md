@@ -19,7 +19,7 @@ if (Platform.OS === 'android') {
   forbidAndroidShare(); //This function blocks the Screen share/Recording and taking screenshot for android devices.
   allowAndroidShare(); //This function allows to provide back the Screen share/Recording and screenshot functionality for android devices
 }
-if (Platform.OS == 'ios') {
+if (Platform.OS === 'ios') {
   enableSecureView(); //This function blocks the Screen share/Recording and taking screenshot for iOS devices.
   disableSecureView(); //This function allows to provide back the Screen share/Recording and screenshot functionality for iOS devices
 }
